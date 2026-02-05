@@ -1,16 +1,59 @@
-# React + Vite
+# Experiment 3.3 – Component Navigation Using React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Aim
+To implement navigation between multiple components in a Single Page Application using **React Router**, including default and fallback routing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Software Requirements
+- **Node.js**
+- **React**
+- **React Router DOM**
+- **Web Browser**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📘 Description
+This experiment focuses on routing between different components such as **Profile** and **Dashboard**, with automatic redirection for invalid routes.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Functionalities Implemented
+- Default route rendering
+- Navigation between Profile and Dashboard components
+- Redirection using `Navigate`
+- Handling unknown routes
+- SPA navigation without page reload
+
+---
+
+## 🧩 Pages / Components
+- **Profile**
+- **Dashboard**
+- **Navigation Bar**
+
+---
+
+## 🔄 Routing Behavior
+- Profile page loads by default
+- Users can navigate to Dashboard
+- Invalid URLs redirect back to Profile
+
+---
+
+## ✅ Output
+The application correctly manages component navigation and redirects invalid routes, demonstrating effective SPA routing.
+
+---
+
+## 🚀 Technologies Used
+- React (Vite)
+- React Router DOM
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📌 Conclusion
+This experiment demonstrates structured component navigation in React SPAs using React Router, ensuring better routing control and user experience.
