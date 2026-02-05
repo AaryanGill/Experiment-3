@@ -1,16 +1,60 @@
-# React + Vite
+# Experiment 3.1 – Basic Client-Side Routing Using React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Aim
+To implement basic client-side routing in a Single Page Application (SPA) using **React Router**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Software Requirements
+- **Node.js**
+- **React**
+- **React Router DOM**
+- **Web Browser**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📘 Description
+This experiment demonstrates the use of **React Router** to enable navigation between different pages in a Single Page Application without reloading the browser.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Functionalities Implemented
+- Client-side routing using `BrowserRouter`
+- Route configuration using `Routes` and `Route`
+- Navigation using `Link`
+- Multiple page components
+- Seamless page transitions without reload
+
+---
+
+## 🧩 Pages / Components
+- **Home**
+- **About**
+- **Contact**
+- **Navigation Bar**
+
+---
+
+## 🔄 Routing Behavior
+- Clicking navigation links updates the URL
+- Content changes dynamically
+- Page reload is avoided
+
+---
+
+## ✅ Output
+The application successfully navigates between multiple pages using React Router, confirming the correct implementation of client-side routing in an SPA.
+
+---
+
+## 🚀 Technologies Used
+- React (Vite)
+- React Router DOM
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📌 Conclusion
+This experiment proves that React Router enables smooth client-side navigation in Single Page Applications, improving performance and user experience.
