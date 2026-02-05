@@ -117,7 +117,7 @@ Both experiments successfully demonstrate the implementation of **client-side ro
 
 ## Screenshots
 # Exp-3.1
-<img width="1358" height="633" alt="image" src="https://github.com/user-attachments/assets/cf0ef0c7-df1d-4fe1-babf-3be10ba8b59a" 
+<img width="1358" height="633" alt="image" src="https://github.com/user-attachments/assets/cf0ef0c7-df1d-4fe1-babf-3be10ba8b59a" /> 
 <img width="1350" height="594" alt="image" src="https://github.com/user-attachments/assets/e06bd26c-d422-4212-9903-79b4f5625577" />
 <img width="1357" height="669" alt="image" src="https://github.com/user-attachments/assets/a3620ec2-1413-4277-bf3f-8dfb216ca6fa" />
 
